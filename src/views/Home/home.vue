@@ -19,13 +19,11 @@
         </li>
 </ul>
         <fistcom></fistcom>
-        <abc></abc>
         <el-input v-model="input" placeholder="请输入内容"></el-input>
     </div>
 </template>
 
 <script>
-    import abc from '../components/HelloWorld'
     import fistcom from './component/template'
     export default {
         name: "home",
@@ -45,7 +43,6 @@
             }
         },
         components: {
-            abc,
             fistcom
         }
     }
