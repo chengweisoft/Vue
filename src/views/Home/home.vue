@@ -31,7 +31,8 @@
             return {
                 name: '张三',
                 message: '页面加载于 ' + new Date().toLocaleString(),
-                arry:[1,2,3,4]
+                arry:[1,2,3,4],
+                input:''
             }
         },
         methods: {
